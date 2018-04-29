@@ -1,0 +1,3 @@
+[submodule "provisioning/roles/ansible-role-memcached"]
+	path = provisioning/roles/ansible-role-memcached
+	url = https://github.com/geerlingguy/ansible-role-memcached.git
