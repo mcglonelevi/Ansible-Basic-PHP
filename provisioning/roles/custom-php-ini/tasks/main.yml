@@ -1,0 +1,5 @@
+- name: install phpini
+  template:
+    src: templates/php.ini.j2
+    dest: /etc/php/7.0/fpm/php.ini
+  notify: restart php-fpm
